@@ -3,6 +3,7 @@
      --secondary : #1C1E53;
 
  }
+ /* navbar start */
  .btn-purple{
     color: var(--primary) !important;
     border: 1px solid var(--primary) !important;
@@ -13,3 +14,12 @@
  .link{
     color: var(--primary) !important; 
  }
+ /* navbar end */
+
+ /* herosection start  */
+
+
+
+
+ 
+ /* herosection end  */
