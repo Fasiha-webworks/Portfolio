@@ -1,9 +1,22 @@
+ *{
+   box-sizing: border-box;
+   /* margin: 0;
+   padding: 0; */
+ }
+ 
+ 
+ 
  :root {
      --primary: #5E3BEE;
      --secondary : #1C1E53;
+     --sign:#F5FCFF;
 
  }
  /* navbar start */
+ nav{
+   position: fixed;
+   top: 0;
+ }
  .btn-purple{
     color: var(--primary) !important;
     border: 1px solid var(--primary) !important;
@@ -17,9 +30,30 @@
  /* navbar end */
 
  /* herosection start  */
+.headcolor{
+   color: var(--primary);
+}
+.btn-color{
+   background-color: var(--primary) !important;
+   color: #F5FCFF !important;
+}
+.hero{
+   background-color:  #F5FCFF;
 
+}
+.lead{
+   color: var(--secondary);
+}
+ .john{
+   color: #282938 !important;
 
+ }
+ /* herosection end  */
 
+ /* cardsectionstart */
+ .bg-color{
+   background-color: var(--sign);
+ }
 
  
- /* herosection end  */
+ /* cardsectionend */
