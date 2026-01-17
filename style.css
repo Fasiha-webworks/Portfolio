@@ -10,6 +10,7 @@
      --primary: #5E3BEE;
      --secondary : #1C1E53;
      --sign:#F5FCFF;
+     -color: #006B6A;
 
  }
  /* navbar start */
@@ -57,3 +58,118 @@
 
  
  /* cardsectionend */
+
+ /* Project section start */
+
+ .image img{
+   /* height: 700px; */
+    width: 100%;
+    height: 240px;
+ }
+ .border-cards{
+  border: 2PX solid rgba(0, 0, 0, 0.541);
+    height: 450px;
+    width: 20%;
+    /* box-shadow:(0,0,0,0.05); */
+    border-radius: 15px;
+    overflow: hidden;
+ }
+ .link-color{
+   color: black;
+ }
+ /* Project sectionend */
+
+ /* Project media query */
+ /* Default (Desktop) */
+.d-flex {
+    gap: 20px;
+}
+
+/* Tablet (≤ 992px) */
+@media (max-width: 992px) {
+    .d-flex {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        width: 45% !important;
+        margin-bottom: 20px;
+    }
+}
+
+/* Mobile (≤ 576px) */
+@media (max-width: 576px) {
+    .d-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90% !important;
+        margin-bottom: 20px;
+    }
+}
+/* Clients section start */
+.green-b {
+    border: 1px solid var(--color);
+}
+
+.img-width {
+    width: 40px;
+    height: 40px;
+}
+
+.star-img{
+  width: 18%;
+}
+.para-size{
+  font-size: 14px;
+}
+.lightblue{
+  background-color: var(--sign);
+}
+/* Clients section end */
+/* form section start */
+.new {
+    border: 1.5px solid var(--primary) !important;
+
+}
+
+.form-control.new:focus,
+.form-select.new:focus,
+textarea.form-control.new:focus {
+    background-color: transparent;
+    border: 1.5px solid #5f3beea6;
+    outline: 0;
+    box-shadow: 1px 1px 10px #5f3beea6;
+}
+.btn-color{
+  background-color: var(--primary)
+}
+/* form section end */
+
+
+
+
+/* footer start */
+.footer-border {
+    border-top: 1px solid black;
+}
+
+.border-width {
+    width: 93%;
+}
+/* footer end */
+
+/* media queries */
+@media screen and (min-width:992px) {
+    .project-width {
+        width: 30%;
+    }
+
+    .custom {
+        width: 31%;
+    }
+}
+
